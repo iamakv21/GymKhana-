@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header section design code*/
+
+.outer {
+  background-image: url(/images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+.inner {
+  background-image: url(/images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 70px);
+  width: calc(100% - 80px);
+  position: absolute;
+  top: 6%;
+  left: 3%;
+  background-position: right;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+}
+
+header {
+  height: 70px;
+  padding: 0 40px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  margin-top: 5px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+nav a:hover {
+  color: #fd4c52;
+  text-shadow: 2px 2px 2px #2cbff4;
+  font-weight: 500;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #ff6268;
+  color: black;
+}
+
+.btn:hover {
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #2cbff4;
+  color: black;
+}
+
+.header-info {
+  position: relative;
+  overflow: hidden;
+}
+
+.left-side {
+  text-align: left;
+  float: left;
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  width: 48%;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.right-side {
+  float: right;
+}
+
+.right-side img {
+  height: auto;
+  max-width: 100%;
+  padding: 30px 35px 30px 26px;
+  width: 480px;
+  height: 480px;
+}
+
+button {
+  margin: 20px 10px 20px 0px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+/* main section design code*/
+
+/* about section design code*/
+.about {
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.about-img {
+  float: left;
+  top: 5%;
+  left: 4%;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.about-img img {
+  height: auto;
+  max-width: 100%;
+}
+
+.about-info {
+  float: right;
+  width: 67%;
+  padding: 30px;
+}
+
+.about-info h2 {
+  padding-bottom: 20px;
+}
+
+/* Services section design code*/
+
+.services {
+  margin-top: 30px;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 40px;
+}
+
+.services h2 {
+  padding: 10px 0;
+}
+
+.service-item {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 10px 35px 10px 0;
+  padding: 20px 40px;
+}
+.service-icon {
+  width: 100%;
+}
+
+.service-icon img {
+  width: 60px;
+  margin: auto;
+}
+
+.service-item h3 {
+  padding: 10px 0;
+}
+.service-item p {
+  padding: 10px 0;
+}
+
+/* offer section design code*/
+
+.offer {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.offer h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  letter-spacing: 5px;
+}
+.offer-bold {
+  color: #ff6268;
+}
+
+.offer-bold:hover {
+  color: #ff6268;
+  text-shadow: 4px 2px 3px #2cbff4;
+}
+
+.offer h3,
+.offer p {
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Price section design code*/
+
+.prices {
+  margin-top: 30px;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 40px;
+}
+
+.prices h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  letter-spacing: 5px;
+  padding: 20px;
+}
+
+.price-item {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 10px 35px 10px 0;
+}
+
+.price-header {
+  background-color: #f7696e;
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.price-heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.price-bold {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.price-tag {
+  text-align: center;
+}
+
+sup {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 9px;
+  margin-left: -12px;
+}
+.price-body {
+  border: 1px solid rgb(196, 196, 196);
+  width: 85%;
+  margin: auto;
+}
+
+.price-body ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.price-body li {
+  padding: 10px;
+}
+
+/* footer section design code*/
+
+.footer-info {
+  overflow: hidden;
+  margin-top: 20px;
+  background-color: #fd4c52;
+  color: #ffffff;
+}
+
+.top-footer {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  padding: 40px;
+  border-bottom: 1px solid #2cbff4; /*
+  background-image: url("/images/gym.jpg");
+  background-repeat: no-repeat;
+  background-position: center;*/
+}
+
+.top-footer a {
+  font-weight: 600;
+  font-size: 2.7rem;
+  letter-spacing: 5px;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #2cbff4;
+}
+
+.top-footer p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 20px;
+}
+
+.top-footer ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.top-footer li {
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 1.3rem;
+}
+
+i:hover {
+  color: #2cbff4;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.left-footer {
+  float: left;
+  width: 50%;
+}
+
+.left-footer p {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.right-footer {
+  float: right;
+}
+
+.right-footer ul {
+  list-style: none;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.right-footer li {
+  display: inline-block;
+}
+
+.right-footer a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.right-footer a:hover {
+  text-shadow: 2px 2px 2px #2cbff4;
+}
+
+/*done*/
